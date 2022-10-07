@@ -1,6 +1,6 @@
 # maplibre-gl-vue3-plugin
 
-[![npm](https://img.shields.io/npm/v/maplibre-gl-vue3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/vue-maplibre-gl)
+[![npm](https://img.shields.io/npm/v/maplibre-gl-vue3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/maplibre-gl-vue3-plugin)
 [![TypeScript](https://img.shields.io/badge/-Typescript-informational?style=flat-square)](https://www.typescriptlang.org/)
 [![vue2](https://img.shields.io/badge/vue-3.x-brightgreen.svg?style=flat-square)](https://vuejs.org/)
 

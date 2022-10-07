@@ -19,7 +19,7 @@
 				<mgl-scale-control/>
 				<mgl-geolocation-control/>
 				<mgl-style-switch-control :map-styles="mapStyles" :position="controlPosition"/>
-				<mgl-lang-switch-control :map-langs="mapLangs" :position="langPosition"/>
+				<mgl-lang-switch-control :api-key="apiKey" :map-langs="mapLangs" :position="langPosition"/>
 
 
 				<div id="sidebar" class="sidebar flex-center right collapsed">
@@ -80,7 +80,7 @@ import CountryFlag from 'vue-country-flag-next';
 import MglLangSwitchControl from "../src/components/controls/langSwitch.control";
 import MglCustomControl from "../src/components/controls/custom.control";
 
-const apiKey = 'pyPRAcHGtcEsPfkcQtpI';
+const apiKey = 'API_KEY';
 
 	setRTLTextPlugin(
 		'https://cdn.maptiler.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
@@ -109,6 +109,7 @@ const apiKey = 'pyPRAcHGtcEsPfkcQtpI';
 
 			return {
 				showCustomControl,
+				apiKey			 : apiKey,
 				loaded           : ref(0),
 				isZooming        : false,
 				controlPosition  : ref('bottom-right'),
