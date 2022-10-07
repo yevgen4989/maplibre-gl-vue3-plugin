@@ -10,7 +10,7 @@ Size: [36 KB](https://bundlephobia.com/package/maplibre-gl-vue3-plugin)
 
 ## Features
 
-- Typescript support
+- Typescript support 
 - Components for map, controls, sources, marker and layers
 - Support for custom controls
 - Customizable style switch which reloads sources and layers automatically
